@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+cp new_ip.txt ip.txt
