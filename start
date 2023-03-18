@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl ifconfig.me > new_ip.txt
+hostname -I | awk '{print $1}' > new_ip.txt
 
 if (source venv/bin/activate) ; then
     source venv/bin/activate
